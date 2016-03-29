@@ -126,3 +126,4 @@ ff02::3 ip6-allhosts
 When you’re finished editing, press Control-X, then Y to save the changes and Enter to confirm.
 
 
+**Next** Proceed to [Install PostFix](install-postfix.md)
