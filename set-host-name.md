@@ -42,11 +42,11 @@ If you have IPv6 enabled on your Linode, you may also want to add an entry for y
 
 File: **/etc/hosts**
 
-```127.0.0.1 localhost.localdomain localhost
+```
+127.0.0.1 localhost.localdomain localhost
 203.0.113.10 hostname.example.com hostname
 2600:3c01::a123:b456:c789:d012 hostname.example.com hostname
 ```
-
 
 The value you assign as your system’s FQDN should have an “A” record in DNS pointing to your Linode’s IPv4 address. For Linodes with IPv6 enabled, you should also set up a “AAAA” record in DNS pointing to your Linode’s IPv6 address. For more information on configuring DNS, see [Adding DNS Records](https://www.linode.com/docs/hosting-website#sph_adding-dns-records).
 
